@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ThreeJs Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <button class="styled-button">Voir Plus</button>
+    <p class="gradient large-text">CLARUS.</p>
+    <p class="gradient small-text">Eliot Gaillard</p>
+    <canvas id="canvas"></canvas>
+
+    <!-- descriptions --> 
+    <div id="info-box">
+        <div class="info-block" data-group="resistances">
+            <h2>Résistances</h2>
+            <p>Ces composants limitent le courant.</p>
+        </div>
+        <div class="info-block" data-group="connecteurs">
+            <h2>Connecteurs</h2>
+            <p>Permettent de relier le circuit à d'autres éléments.</p>
+        </div>
+        <div class="info-block" data-group="transistors">
+            <h2>Transistors</h2>
+            <p>Utilisés pour l'amplification ou la commutation de signaux.</p>
+        </div>
+        <div class="info-block" data-group="petites_resistances">
+            <h2>Petites Résistances</h2>
+            <p>Variantes plus petites pour affiner les réglages.</p>
+        </div>
+        <div class="info-block" data-group="diodes">
+            <h2>LED</h2>
+            <p>Emet de la lumière quand su courant la traverse.</p>
+        </div>
+        <div class="info-block" data-group="potentiometres">
+            <h2>Potentiomètres</h2>
+            <p>Résistances variables permettant de régler la tension.</p>
+        </div>
+        <div class="info-block" data-group="pcb">
+            <h2>PCB</h2>
+            <p>Le circuit imprimé supportant et interconnectant tous les composants.</p>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
