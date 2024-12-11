@@ -3,7 +3,7 @@
 
 ## Description
 This project presents an interactive 3D model experience using Three.js. It includes dynamic animations, user interactions, and a polished design with custom CSS styling.
-* Live - https://coeos.github.io/ThreeJS-Clarus/ *
+# Live - https://coeos.github.io/ThreeJS-Clarus/ 
 
 ## Features
 - **3D Model Loading**: Supports GLTF models loaded into a Three.js scene.
